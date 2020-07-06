@@ -1,0 +1,21 @@
+https://gist.github.com/posada-xabier/bc3845370fc2a847dac41fb9b3ff3a01#file-bonbons_que_tu_peux_acheter-txt
+
+Debut acheter bonbons ( reel argent, reel prix )
+  
+  capital <---- 0
+  prix    <---- 0
+  quantité <---- 0
+  
+  Tant que  capital <= 0
+          capital  <---   demander capital
+          
+  Tant que  prix <= 0
+          prix  <---   demander prix
+  
+  Tant que  capital >= prix
+          capital  <---   capital - prix
+          quantite <----  quantite + 1
+   Fin tant que
+   retourner quantite
+  
+Fin acheter bonbons
